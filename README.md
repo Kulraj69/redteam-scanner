@@ -50,3 +50,13 @@ needs a target adapter that wraps a genuine agent we own (e.g. a Qualifier or
 Leash agent build) behind the same handle_user/handle_tool_result/request_tool
 interface, plus a wider probe corpus. That adapter is next; publishing the
 report and any repo still needs approval.
+
+## Demo
+
+`demo.py` reproduces the recorded demo run end to end, offline (standard
+library only, no model calls):
+
+    python demo.py
+
+It executes the library's real code path and prints the same output shown in
+the recorded demo video.
